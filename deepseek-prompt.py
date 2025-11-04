@@ -4,7 +4,7 @@ import json
 # ========== 配置 ==========
 API_KEY = "sk-f76caab6ef614fa9b6c368616a998022"          # 换成自己的
 API_URL = "https://api.deepseek.com/v1/chat/completions"
-MODEL   = "deepseek-chat"          # 想用 Llama 就保持带 llm 的型号
+MODEL   = "deepseek-chat"   
 # ==========================
 
 def ask_llm(prompt: str) -> str:
